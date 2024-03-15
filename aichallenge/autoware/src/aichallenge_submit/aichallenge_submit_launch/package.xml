@@ -4,7 +4,7 @@
   <version>0.1.0</version>
   <description>The aichallenge_submit_launch package</description>
 
-  <maintainer email="kazumasa.sakiyama@tier4.jp">Kazumasa Sakiyama</maintainer>
+  <maintainer email="isamu.takagi@tier4.jp">Takagi Isamu</maintainer>
   <license>Apache License 2.0</license>
 
   <buildtool_depend>ament_cmake_auto</buildtool_depend>
