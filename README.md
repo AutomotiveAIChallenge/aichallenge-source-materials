@@ -1,1 +1,1 @@
-# aichallenge-yyyymm
+# aichallenge-source-materials
