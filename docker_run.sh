@@ -8,7 +8,7 @@ case "${target}" in
     volume="output:/output"
     ;;
 "dev")
-    volume="aichallenge:/aichallenge"
+    volume="output:/output aichallenge:/aichallenge"
     ;;
 *)
     echo "invalid argument (use 'dev' or 'eval')"
@@ -32,4 +32,4 @@ esac
 mkdir -p output
 
 # shellcheck disable=SC2086
-rocker ${opts} --x11 --user --net host --privileged --volume "${volume}" -- "aichallenge-source-materials-${target}"
+rocker ${opts} --x11 --user --net host --privileged --volume ${volume} -- "aichallenge-source-materials-${target}"

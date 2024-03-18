@@ -3,6 +3,7 @@ FROM osrf/ros:humble-desktop AS common
 RUN apt-get update
 RUN apt-get -y install libgl1-mesa-glx libgl1-mesa-dri
 RUN apt-get -y install iproute2
+RUN apt-get -y install ros-humble-rmw-cyclonedds-cpp
 
 FROM common AS dev
 
